@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:backgroundTint="#FFFDFD"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Git"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="#667A5629"
+        android:text="Git repo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:text="Alphabet Book"
+        android:textAlignment="center"
+        android:textColor="#8F6F23"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="301dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="A  B  C"
+        android:textAlignment="center"
+        android:textColor="#614B14"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="174dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#5E7A5629"
+        android:text="Learn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Git" />
+
+    <Button
+        android:id="@+id/Test"
+        android:layout_width="182dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="176dp"
+        android:backgroundTint="#5E7A5629"
+        android:text="Test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/learn"
+        app:layout_constraintTop_toBottomOf="@+id/Git" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="324dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:srcCompat="@drawable/boy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
