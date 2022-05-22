@@ -15,10 +15,12 @@
         android:layout_marginTop="320dp"
         android:backgroundTint="#667A5629"
         android:text="Git repo"
+        android:onClick="gotorepo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header" />
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/header"
@@ -37,7 +39,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="301dp"
-        android:layout_height="99dp"
+        android:layout_height="41dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:fontFamily="monospace"
@@ -55,6 +57,7 @@
         android:layout_marginTop="1dp"
         android:backgroundTint="#5E7A5629"
         android:text="Learn"
+        android:onClick="learn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Git" />
