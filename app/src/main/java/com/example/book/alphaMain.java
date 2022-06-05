@@ -1,16 +1,15 @@
 package com.example.book;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class h extends AppCompatActivity {
-
+public class alphaMain extends AppCompatActivity {
+    ListView Book;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.h);
-
     }
-
 }

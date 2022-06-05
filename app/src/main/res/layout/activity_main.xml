@@ -10,14 +10,12 @@
 
     <Button
         android:id="@+id/Git"
-        android:layout_width="match_parent"
+        android:layout_width="174dp"
         android:layout_height="99dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="332dp"
         android:backgroundTint="#667A5629"
-        android:text="Git repo"
         android:onClick="gotorepo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:text="Git repo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header"
         tools:ignore="OnClick" />
@@ -54,13 +52,11 @@
         android:id="@+id/learn"
         android:layout_width="174dp"
         android:layout_height="99dp"
-        android:layout_marginTop="1dp"
         android:backgroundTint="#5E7A5629"
-        android:text="Learn"
         android:onClick="learn"
+        android:text="Learn"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Git" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Test"
@@ -70,8 +66,18 @@
         android:backgroundTint="#5E7A5629"
         android:text="Test"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/learn"
-        app:layout_constraintTop_toBottomOf="@+id/Git" />
+        app:layout_constraintStart_toStartOf="@+id/learn" />
+
+    <Button
+        android:id="@+id/learnList"
+        android:layout_width="182dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#5E7A5629"
+        android:text="ListView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/learn" />
 
     <ImageView
         android:id="@+id/imageView4"
