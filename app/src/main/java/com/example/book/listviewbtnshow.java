@@ -38,9 +38,9 @@ public class listviewbtnshow extends AppCompatActivity {
         learn.add(new alphaList("S",R.drawable.sun));
         learn.add(new alphaList("T",R.drawable.tree));
         learn.add(new alphaList("U",R.drawable.umbrella));
-        learn.add(new alphaList("V",R.drawable.violen));
+        learn.add(new alphaList("V",R.drawable.violin));
         learn.add(new alphaList("W",R.drawable.watch));
-        learn.add(new alphaList("X",R.drawable.xylo));
+        learn.add(new alphaList("X",R.drawable.xx));
         learn.add(new alphaList("Y",R.drawable.yoyo));
         learn.add(new alphaList("Z",R.drawable.zebra));
         alphAdapter adapter = new alphAdapter(this,learn);
