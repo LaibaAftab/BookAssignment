@@ -7,6 +7,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     Button learn,test;
@@ -37,5 +40,21 @@ public class MainActivity extends AppCompatActivity {
     public void learn(View view) {
         Intent intent = new Intent(MainActivity.this,Alphabet.class);
         startActivity(intent);
+    }
+
+    public void list(View view) {
+        Intent intent2 = new Intent(MainActivity.this,listviewbtnshow.class);
+        startActivity(intent2);
+//        ListView Book;
+//        ArrayList<alphaList> learn = new ArrayList<alphaList>();
+//        learn.add(new alphaList("A",R.drawable.ant));
+//        learn.add(new alphaList("B",R.drawable.balloon));
+//        learn.add(new alphaList("C",R.drawable.cat));
+//        learn.add(new alphaList("D",R.drawable.duck));
+//        learn.add(new alphaList("E",R.drawable.egg));
+//        learn.add(new alphaList("F",R.drawable.fish));
+//        alphAdapter adapter = new alphAdapter(this,learn);
+//        Book = findViewById(R.id.listView);
+//        Book.setAdapter(adapter);
     }
 }

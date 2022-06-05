@@ -9,12 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Book">
-        <activity android:name=".Alphabet"></activity>
-        <activity android:name=".a"></activity>
-        <activity android:name=".b"></activity>
-        <activity android:name=".c"></activity>
-        <activity android:name=".test1"></activity>
-        <activity android:name=".test2"></activity>
+        <activity
+            android:name=".listviewbtnshow"
+            android:exported="false" />
+        <activity android:name=".Alphabet" />
+        <activity android:name=".a" />
+        <activity android:name=".b" />
+        <activity android:name=".c" />
+        <activity android:name=".test1" />
+        <activity android:name=".test2" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
